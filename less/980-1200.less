@@ -1,0 +1,170 @@
+@media screen and (min-width: 980px) {
+
+	body {
+
+		background-image: url(../img/body-bg.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%; 
+
+		.pagewrap {
+
+			max-width: 1200px; //限制视口最大为1200，阻止视口不断扩大
+
+			width: 96.6666667%; /* 1160/1200 */
+
+			margin: 0 auto;
+
+			header {
+
+				color: white;
+
+				hgroup {
+
+					h3, h4 {
+
+						padding-top: 15px;
+					}
+
+					h3 {
+
+						font-size: 2em;
+					}
+
+					h4 {
+
+						font-size: 1.5em;
+					}
+				}
+
+				nav {
+
+					height: 45px;
+
+					margin-top: 15px;
+
+					background-color: gray;
+
+					border-radius: 8px;
+
+					ul {
+
+						width: 64.65517241%; /* 750/1160 */
+
+						float: left;
+
+						li {
+
+							display: inline-block;
+
+							padding-right: 2%; /* 15/750 */
+							padding-left: 2%; /* 15/750 */
+
+							font-size: 1.3em;
+							line-height: 45px;
+						}
+					}/* end of navigation*/
+
+					form {
+
+						position: static;
+
+						margin-right: 1.29310345%; /* 10/950 */
+
+						float: right;
+
+						line-height: 45px;
+					}
+				}
+			} /* end of header */
+
+			.content {
+
+				width: 64.65517241%; /* 750/1160 */
+
+				margin-top: 15px;
+				padding-right: 1.72413793%; /* 20/1160 */ 
+				padding-left: 1.72413793%; /* 20/1160 */ 
+
+				float: left;
+
+				background-color: white;
+				border-radius: 8px;
+
+				font-size: 1.2em;
+
+				h4 {
+
+					font-size: 1.25em; /* 24/16*1.2 */
+
+					padding-top: 15px;
+					padding-bottom: 15px;
+				}
+
+				img {
+
+					width: 100%;
+				}
+			} /* end of content */
+
+			.sidebar {
+
+				width: 30.17241379%; /* 350/1160 */
+
+				float: right;
+
+				section {
+
+					margin-top: 20px;
+					padding-top: 15px;
+					padding-right: 5.71428571%; /* 20/350 */ 
+					padding-bottom: 15px;
+					padding-left: 5.71428571%; /* 20/350 */ 
+
+					background-color: white;
+
+					border-radius: 8px;
+
+					ul {
+
+						padding-top: 20px;
+					}
+
+					h4 {
+
+						font-size: 1.5em;
+					}
+
+					&.widget {
+
+						ul li {
+
+							font-size: 1.2em;
+							line-height: 1.5em;
+
+							border-top: 1px solid #dcdcdc;
+							
+						}
+					}/* end of widget */
+
+					&.photos {
+
+						ul li {
+
+							display: inline-block;
+						}
+					}/* end of photos*/
+				}
+			}/* end of sidebar */
+
+			footer {
+
+				padding-top: 10px;
+
+				color: white;
+
+				clear: both;
+			}
+		}
+	}
+}
